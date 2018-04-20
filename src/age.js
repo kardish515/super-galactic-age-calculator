@@ -7,7 +7,9 @@ class Age {
   ageCheck(){
     const date = new Date();
     let ageYears = (date.getFullYear() - this.year) * 3.154e+7;
-    return ageYears;
+    let ageMonths = (date.getMonth() - this.month) * 2.628e+6;
+    let ageDays = (date.getDate() - this.day) * 86400;
+    return ageYears + ageMonths + ageDays;
   }
 }
 

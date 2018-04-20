@@ -4,13 +4,19 @@
 
 ## Description
 
-
+An application that determines a user's age based on a planet's solar years
 
 **BDD Breakdown**
 
 Behavior | Input | Ouput
 ------------ | ------------- | -------------
-
+Take a person's age in years and convert it into seconds | 1 | 3.154e+7
+Take two dates and determine the difference in seconds between the two | |
+Return the age of a human in Mercury years | 1 | .24
+Return the age of a human in Venus years | 1 | .62
+Return the age of a human in Mars years | 1 | 1.88
+Return the age of a human in Jupiter years | 1 | 11.86
+Determine how many years a user has left to live on each planet
 
 ## Setup/Installation Requirements
 

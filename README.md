@@ -16,7 +16,8 @@ Return the age of a human in Mercury years | 1 | .24
 Return the age of a human in Venus years | 1 | .62
 Return the age of a human in Mars years | 1 | 1.88
 Return the age of a human in Jupiter years | 1 | 11.86
-Determine how many years a user has left to live on each planet
+Determine how many years a user has left to live on each planet | 78 | .7
+If user has lived past average life expectancy return that number | 80.7 | 2
 
 ## Setup/Installation Requirements
 

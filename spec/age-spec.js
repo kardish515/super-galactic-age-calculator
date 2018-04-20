@@ -21,4 +21,8 @@ describe('Age', function(){
     let age = new Age(2017, 3, 20);
     expect(age.jupiterAge()).toEqual(11.86);
   });
+  it('should test to return remaining years based on life expectancy', function(){
+    let age = new Age(1990, 5, 16);
+    expect(age.remainingYears("Earth")).toEqual(50.855688015218774);
+  });
 });

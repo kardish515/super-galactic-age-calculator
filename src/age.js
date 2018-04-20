@@ -27,6 +27,21 @@ class Age {
     let age = this.ageCheck();
     return age / 3.154e+7 * 11.86;
   }
+  remainingYears(planet){
+    console.log(planet);
+    const lifeExpectancy = 78.7;
+    if(planet === "Mercury"){
+      return lifeExpectancy * .24 - this.mercuryAge();
+    } else if(planet === "Venus"){
+      return lifeExpectancy * .62 - this.venusAge();
+    } else if(planet === "Mars"){
+      return lifeExpectancy * 1.88 - this.marsAge();
+    } else if(planet === "Jupiter"){
+      return lifeExpectancy * 11.86 - this.jupiterAge();
+    } else if(planet === "Earth"){
+      return lifeExpectancy - (this.ageCheck() / 3.154e+7);
+    }
+  }
 }
 
 export {Age}

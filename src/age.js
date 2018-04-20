@@ -19,6 +19,10 @@ class Age {
     let age = this.ageCheck();
     return age / 3.154e+7 * .62;
   }
+  marsAge(){
+    let age = this.ageCheck();
+    return age /3.154e+7 * 1.88;
+  }
 }
 
 export {Age}

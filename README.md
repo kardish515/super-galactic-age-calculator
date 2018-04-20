@@ -1,4 +1,4 @@
-# **Template**
+# **Super Galactic Age Calculator**
 
 #### Nick Kardish
 
@@ -11,7 +11,7 @@ An application that determines a user's age based on a planet's solar years
 Behavior | Input | Ouput
 ------------ | ------------- | -------------
 Take a person's age in years and convert it into seconds | 1 | 3.154e+7
-Take two dates and determine the difference in seconds between the two | |
+Take two dates and determine the difference in seconds between the two | 4/19/2018, 4/20/2018 | 86400
 Return the age of a human in Mercury years | 1 | .24
 Return the age of a human in Venus years | 1 | .62
 Return the age of a human in Mars years | 1 | 1.88

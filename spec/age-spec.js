@@ -9,4 +9,8 @@ describe('Age', function(){
     let age = new Age(2017, 3, 20);
     expect(age.mercuryAge()).toEqual(.24);
   });
+  it('should test to return the age of a human in Venus years', function(){
+    let age = new Age(2016, 3, 20);
+    expect(age.venusAge()).toEqual(1.24);
+  });
 });

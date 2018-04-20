@@ -15,6 +15,10 @@ class Age {
     let age = this.ageCheck();
     return age / 3.154e+7 * .24;
   }
+  venusAge(){
+    let age = this.ageCheck();
+    return age / 3.154e+7 * .62;
+  }
 }
 
 export {Age}

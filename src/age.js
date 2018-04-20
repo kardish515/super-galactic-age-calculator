@@ -28,7 +28,6 @@ class Age {
     return age / 3.154e+7 * 11.86;
   }
   remainingYears(planet){
-    console.log(planet);
     const lifeExpectancy = 78.7;
     if(planet === "Mercury"){
       let remainingYears = lifeExpectancy * .24 - this.mercuryAge();

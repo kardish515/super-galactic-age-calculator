@@ -11,6 +11,10 @@ class Age {
     let ageDays = (date.getDate() - this.day) * 86400;
     return ageYears + ageMonths + ageDays;
   }
+  mercuryAge(){
+    let age = this.ageCheck();
+    return age / 3.154e+7 * .24;
+  }
 }
 
 export {Age}

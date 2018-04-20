@@ -32,7 +32,7 @@ If user has lived past average life expectancy return that number | 80.7 | 2
 
 ## Link
 
-
+[a link to Super Galactic Age Calculator](https://kardish515.github.io/super-galactic-age-calculator)
 
 ## License
 

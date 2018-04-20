@@ -23,6 +23,10 @@ describe('Age', function(){
   });
   it('should test to return remaining years based on life expectancy', function(){
     let age = new Age(1990, 5, 16);
-    expect(age.remainingYears("Earth")).toEqual(50.855688015218774);
+    expect(age.remainingYears("Earth")).toEqual("You have 50.855688015218774 years left to live");
+  });
+  it('should test to return years lived past life expectancy', function(){
+    let age = new Age(1900, 5, 16);
+    expect(age.remainingYears("Earth")).toEqual("You should have died 39.144311984781226 years ago");
   });
 });

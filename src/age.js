@@ -31,15 +31,40 @@ class Age {
     console.log(planet);
     const lifeExpectancy = 78.7;
     if(planet === "Mercury"){
-      return lifeExpectancy * .24 - this.mercuryAge();
+      let remainingYears = lifeExpectancy * .24 - this.mercuryAge();
+      if(remainingYears >= 0){
+        return "You have " + remainingYears + " years left to live";
+      } else{
+        return "You should have died " + Math.abs(remainingYears) + " years ago";
+      }
     } else if(planet === "Venus"){
-      return lifeExpectancy * .62 - this.venusAge();
+      let remainingYears = lifeExpectancy * .62 - this.venusAge();
+      if(remainingYears >= 0){
+        return "You have " + remainingYears + " years left to live";
+      } else{
+        return "You should have died " + Math.abs(remainingYears) + " years ago";
+      }
     } else if(planet === "Mars"){
-      return lifeExpectancy * 1.88 - this.marsAge();
+      let remainingYears = lifeExpectancy * 1.88 - this.marsAge();
+      if(remainingYears >= 0){
+        return "You have " + remainingYears + " years left to live";
+      } else{
+        return "You should have died " + Math.abs(remainingYears) + " years ago";
+      }
     } else if(planet === "Jupiter"){
-      return lifeExpectancy * 11.86 - this.jupiterAge();
+      let remainingYears = lifeExpectancy * 11.86 - this.jupiterAge();
+      if(remainingYears >= 0){
+        return "You have " + remainingYears + " years left to live";
+      } else{
+        return "You should have died " + Math.abs(remainingYears) + " years ago";
+      }
     } else if(planet === "Earth"){
-      return lifeExpectancy - (this.ageCheck() / 3.154e+7);
+      let remainingYears = lifeExpectancy - (this.ageCheck() / 3.154e+7);
+      if(remainingYears >= 0){
+        return "You have " + remainingYears + " years left to live";
+      } else{
+        return "You should have died " + Math.abs(remainingYears) + " years ago";
+      }
     }
   }
 }

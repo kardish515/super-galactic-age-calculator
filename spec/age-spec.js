@@ -17,4 +17,8 @@ describe('Age', function(){
     let age = new Age(2017, 3, 20);
     expect(age.marsAge()).toEqual(1.88);
   });
+  it('should test to return the age of a human in Jupiter years', function(){
+    let age = new Age(2017, 3, 20);
+    expect(age.jupiterAge()).toEqual(11.86);
+  });
 });

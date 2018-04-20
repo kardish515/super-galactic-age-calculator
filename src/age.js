@@ -21,7 +21,11 @@ class Age {
   }
   marsAge(){
     let age = this.ageCheck();
-    return age /3.154e+7 * 1.88;
+    return age / 3.154e+7 * 1.88;
+  }
+  jupiterAge(){
+    let age = this.ageCheck();
+    return age / 3.154e+7 * 11.86;
   }
 }
 
